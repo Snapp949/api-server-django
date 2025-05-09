@@ -4,7 +4,7 @@ cffi==1.15.1
 charset-normalizer==2.1.1
 cryptography==38.0.4
 defusedxml==0.7.1
-Django==3.2.13
+Django==4.2.21
 django-cors-headers==3.13.0
 django-environ==0.8.1
 djangorestframework==3.13.1
@@ -21,3 +21,4 @@ six==1.16.0
 social-auth-core==4.3.0
 sqlparse==0.4.3
 urllib3==1.26.13
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
